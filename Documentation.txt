@@ -1,0 +1,21 @@
+💻 HOW IT WORKS
+⭕ User Input: The program prompts the user to enter the path of the image
+ file they want to resize.
+⭕ Image Loading: It reads the image from the specified path using
+ cv2.imread().
+⭕ Resize Dimensions: The user is asked to provide the new width and 
+ height for the image.
+⭕ Image Resizing: The image is resized to the specified dimensions using
+ cv2.resize().
+⭕ Display:Both the original and resized images are displayed using
+ cv2.imshow().
+⭕ Save or Close: If the user presses the "s" key, the resized image is saved to
+ a specified location. If any other key is pressed, the program closes the
+ display windows.
+
+👉 NOTE :
+ 👉 Ensure you handle cases where the image path might be invalid.
+ 👉 Correct the condition to check the key press (if k == ord("s") should be
+ properly indented).
+ 👉 The method to close the windows should be cv2.destroyAllwindows()
+ ,not cv2.destroyAllwindows().
